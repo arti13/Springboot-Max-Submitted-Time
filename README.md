@@ -15,6 +15,13 @@ cd springboot-max-submitted-time
 | ----- | ------------------------------------------ | ---------------------------------------- |
 | GET   | `/api/encounters/max-submitted`            | Get max submitted time per ENCOUNTER_ID |
 
+
+=======
+Example Response:
+```json
+[{"encounterId":"E1","submittedTime":"21.20"},{"encounterId":"E2","submittedTime":"23.50"}]```
+
+
 ## 🐳 Docker
 
 ```bash
